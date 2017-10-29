@@ -6,14 +6,16 @@ python的输入输出
 
 """
 name = input("input your name:")
-age  = input("input your age:")
+age  = int(input("input your age:"))
 work = input("input your work:")
+print (type(age))
+
 
 info = """
 ___________info______________
 
 name :%s
-age  :%s
+age  :%d
 work :%s
 ___________end________________
 """%(name,age,work)
